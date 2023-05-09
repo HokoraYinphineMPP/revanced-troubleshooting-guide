@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sodawithoutsparkles.github.io/revanced-troubleshooting-guide/sitemap.xml.gz
