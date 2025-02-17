@@ -10,5 +10,5 @@ The latest supported YT version is:
 
 [![It is ](https://img.shields.io/badge/Latest%20Supported%20Version--ff0000?style=for-the-badge&logo=youtube)](https://www.apkmirror.com/apk/google-inc/youtube/youtube--release/youtube--2-android-apk-download/)
 
-as of 2025-02-10T23:20 UTC. Remember that, as we will use it very soon.
+as of 2025-02-17T23:38 UTC. Remember that, as we will use it very soon.
 
