@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/revanced-troubleshooting-guide">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.3.0.827080820970">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827690351133">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.3.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>3. ReVanced YouTube</title>
@@ -40,11 +40,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=4.3.0.827080820970" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.4.0.827690351133" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.3.0.827080820970" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.3.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.3.0.827080820970" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.827690351133" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.827690351133" data-turbo-eval="false" defer></script>
 
     <style>
         .border-gray-300 {
@@ -185,11 +185,10 @@
 </ul>
 <h2 id="32-video-playback-issues--buffers--buggy--content-not-available">3.2. Video playback issues / buffers / buggy / content not available</h2>
 <p>Include <code translate="no" v-pre>client spoof</code> patch. (<em><code translate="no" v-pre>spoof signature verification</code> was merged into <code translate="no" v-pre>client spoof</code></em>)</p>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="https://github.com/SodaWithoutSparkles/revanced-troubleshooting-guide/blob/main/troubleshoot/03-youtube/02.png?raw=true" alt="infinite loading" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">infinite loading</figcaption>
 </figure>
-</p>
 <p>You can get a guide on that <a href="../../02-add-patch/">here</a></p>
 <p>If you cannot find them, you probably patched an unsupported YT version.</p>
 <h2 id="33-app-not-installed--installation-is-blocked--install_failed_verification_failure">3.3. App not installed / Installation is blocked / <code translate="no" v-pre>install_failed_verification_failure</code></h2>
@@ -230,11 +229,10 @@
 </ul>
 </li>
 </ul>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="https://github.com/SodaWithoutSparkles/revanced-troubleshooting-guide/blob/main/troubleshoot/03-youtube/03.jpg?raw=true" alt="App not installed" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">App not installed</figcaption>
 </figure>
-</p>
 <h2 id="34-video-turns-very-dark-in-fullscreen">3.4. Video turns very dark in fullscreen</h2>
 <p>Try swiping up on the left side of your screen. This feature is called swipe brightness control. Swipe down all the way and it would use auto-brightness. You can also swipe to control volume on the right.</p>
 <p>You can disable this under ReVanced YT settings &gt; ReVanced &gt; Interaction &gt; Swipe Controls</p>
@@ -258,11 +256,10 @@
 <h2 id="312-ambient-mode--glow-around-video-missing">3.12. Ambient mode / &quot;glow around video&quot; missing</h2>
 <p>Turn the function off and on again. Seriously, this fixed it.</p>
 <p>Or you have battery saving mode turned ON, and YouTube disables ambient mode. Blame YouTube ¯\_(ツ)_/¯</p>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="https://github.com/SodaWithoutSparkles/revanced-troubleshooting-guide/blob/main/troubleshoot/03-youtube/12.jpg?raw=true" alt="Ambient mode settings" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">Ambient mode settings</figcaption>
 </figure>
-</p>
 <h2 id="313-some-buttons-next-to-likedislike-missing">3.13. Some buttons next to like/dislike missing</h2>
 <p>Disable: ReVanced YT settings &gt; ReVanced &gt; Layout &gt; Hide action buttons &gt; All toggles listed</p>
 <h2 id="314-remixsharethanksshopclip-buttons-missing">3.14. Remix/share/thanks/shop/clip buttons missing</h2>
@@ -319,27 +316,24 @@
 <p>Repatch without the <code translate="no" v-pre>hide player overlay</code> patch. This requires a repatch, you cannot fix it in settings.</p>
 <h2 id="329-sponsorblock-temporarily-not-available">3.29 SponsorBlock temporarily not available</h2>
 <p>API Timed out. SB server did not respond in time. Either it is down or it is super busy right now. You can check the status of SB server <a href="https://status.sponsor.ajay.app/">here</a>.</p>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="https://github.com/SodaWithoutSparkles/revanced-troubleshooting-guide/blob/main/troubleshoot/03-youtube/29.jpg?raw=true" alt="toast warning" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">toast warning</figcaption>
 </figure>
-</p>
 <h2 id="330-player-controls-wont-disappear">3.30 Player controls won&#x27;t disappear</h2>
 <p>Go to YouTube settings &gt; Accessibility and disable Accessibility player.</p>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="https://github.com/SodaWithoutSparkles/revanced-troubleshooting-guide/blob/main/troubleshoot/03-youtube/30.jpg?raw=true" alt="Accessibility player" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">Accessibility player</figcaption>
 </figure>
-</p>
 <h2 id="331-where-is-the-hide-shorts-button-patch">3.31 Where is the hide-shorts-button patch?</h2>
 <p>Merged with <code translate="no" v-pre>navigation buttons</code> patch</p>
 <h2 id="332-how-can-i-auto-skip-sponsors-with-sponsorblock">3.32 How can I auto-skip sponsors with SponsorBlock?</h2>
 <p>Revanced Youtube &gt; settings &gt; SponsorBlock &gt; scroll down &gt; select category &gt; skip automatically</p>
-<p><figure class="content-center">
+<figure class="content-center">
     <img src="https://github.com/SodaWithoutSparkles/revanced-troubleshooting-guide/blob/main/troubleshoot/03-youtube/32.jpg?raw=true" alt="different behaviours" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">different behaviours</figcaption>
 </figure>
-</p>
 
                 
                 <!-- Required only on API pages -->
